@@ -1,164 +1,27 @@
 {
-  "name": "The Office /// GHMP ",
-  "shortName": "The Office /// GHMP ",
-  "description": "",
-  "color": "#ED2939",
-  "rootUrl": "ghmp/sounds/",
-  "author": {
-    "name": "Pití",
-    "url": ""
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffffff"
   },
-  "lang": "",
-  "version": "1.0.0",
-  "icons": [
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "json.schemas": [
     {
-      "src": "/icons/icon-48.png",
-      "sizes": "48x48",
-      "purpose": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "/icons/icon.png",
-      "sizes": "144x144",
-      "type": "image/png"
+      "fileMatch": ["/soundboardio.json"],
+      "url": "https://raw.githubusercontent.com/soundboardio/plugins/master/.vscode/soundboardio.schema.json"
     }
   ],
-  "tiles": [
-    {
-      "name": "Cígo",
-      "filename": "Cígo.mp3"
-    },
-    {
-      "name": "Doprdele",
-      "filename": "Doprdele.mp3"
-    },
-    {
-      "name": "Druhý příchod",
-      "filename": "Druhý příchod.mp3"
-    },
-    {
-      "name": "Flákanec",
-      "filename": "Flákanec.mp3"
-    },
-    {
-      "name": "Happy",
-      "filename": "Happy.mp3"
-    },
-    {
-      "name": "I feel good",
-      "filename": "I feel good.mp3"
-    },
-    {
-      "name": "Jaj bože můj",
-      "filename": "Jaj bože můj.mp3"
-    },
-    {
-      "name": "Jsem nasraná",
-      "filename": "Jsem nasraná.mp3"
-    },
-    {
-      "name": "Kafe",
-      "filename": "Kafe.mp3"
-    },
-    {
-      "name": "Kája má hlad",
-      "filename": "Kája má hlad.mp3"
-    },
-    {
-      "name": "Kampaň",
-      "filename": "Kampaň.mp3"
-    },
-    {
-      "name": "Kašli na to",
-      "filename": "Kašli na to.mp3"
-    },
-    {
-      "name": "Láska k práci",
-      "filename": "Láska k práci.mp3"
-    },
-    {
-      "name": "Moment",
-      "filename": "Moment.mp3"
-    },
-    {
-      "name": "Money",
-      "filename": "Money.mp3"
-    },
-    {
-      "name": "Na mě jsou zlí",
-      "filename": "Na mě jsou zlí.mp3"
-    },
-    {
-      "name": "Nad tím jsem nepřemýšlel",
-      "filename": "Nad tím jsem nepřemýšlel.mp3"
-    },
-    {
-      "name": "Nebudeme kalit",
-      "filename": "Nebudeme kalit.mp3"
-    },
-    {
-      "name": "Nebudu se bát",
-      "filename": "Nebudu se bát.mp3"
-    },
-    {
-      "name": "Nejsem bůh",
-      "filename": "Nejsem bůh.mp3"
-    },
-    {
-      "name": "Nidky neodstoupim",
-      "filename": "Nidky neodstoupim.mp3"
-    },
-    {
-      "name": "Nitrák",
-      "filename": "Nitrák.mp3"
-    },
-    {
-      "name": "No",
-      "filename": "No.mp3"
-    },
-    {
-      "name": "Pětkový bavorák",
-      "filename": "Pětkový bavorák.mp3"
-    },
-    {
-      "name": "Podvodný firmy",
-      "filename": "Podvodný firmy.mp3"
-    },
-    {
-      "name": "Proč, Esterko?",
-      "filename": "Proč, Esterko?.mp3"
-    },
-    {
-      "name": "Proklínám tě",
-      "filename": "Proklínám tě.mp3"
-    },
-    {
-      "name": "Shitstorm",
-      "filename": "Shitstorm.mp3"
-    },
-    {
-      "name": "Sólo pro hrnec",
-      "filename": "Sólo pro hrnec.mp3"
-    },
-    {
-      "name": "Stalo se, kámo",
-      "filename": "Stalo se, kámo.mp3"
-    },
-    {
-      "name": "Ultimátní Zeman",
-      "filename": "Ultimátní Zeman.mp3"
-    },
-    {
-      "name": "Už je to tady",
-      "filename": "Už je to tady.mp3"
-    },
-    {
-      "name": "Zdravim, zdravim",
-      "filename": "Zdravim, zdravim.mp3"
-    },
-    {
-      "name": "Žádný problém",
-      "filename": "Žádný problém.mp3"
-    }
-  ]
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "files.eol": "\r\n",
+  "files.encoding": "utf8",
+  "prettier.endOfLine": "lf",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
