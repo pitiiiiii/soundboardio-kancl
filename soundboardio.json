@@ -3,7 +3,7 @@
   "shortName": "The Office /// GHMP ",
   "description": "",
   "color": "#ED2939",
-  "rootUrl": "ghmp/sounds/",
+  "rootUrl": "./",
   "author": {
     "name": "Pití",
     "url": ""
@@ -12,13 +12,13 @@
   "version": "1.0.0",
   "icons": [
     {
-      "src": "/icons/icon-48.png",
+      "src": "icons/icon-48.png",
       "sizes": "48x48",
       "purpose": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon.png",
+      "src": "icons/icon.png",
       "sizes": "144x144",
       "type": "image/png"
     }
